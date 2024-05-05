@@ -217,6 +217,234 @@ nav ul li a {
     width: 100%; 
 }
 
+
+
+/* Container for the job offer section */
+.create-job-offer {
+    background-color: #DD6E3F; /* Background color for the section */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    flex-direction: column;
+}
+
+/* Styling for each option container */
+.offer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF; /* Background color for the inner containers */
+    width: 822px; /* Width of the container */
+    height: auto; /* Adjust height as needed */
+    padding: 20px;
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.offer-option, .cv-upload {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cv-upload img {
+    width: 125px; /* Width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+/* Styling for text and buttons in each section */
+.create-job-offer p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.create-job-offer button {
+    background-color: #FFFFFF;
+    color: #DD6E3F;
+    border: 1px solid #DD6E3F;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 280px; /* Width of the buttons */
+    height: 56px; /* Height of the buttons */
+    transition: background-color 0.3s;
+}
+
+.create-job-offer button:hover {
+    background-color: #BF5A30;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+/* Why Choose Us Section Styling */
+.why-choose-us {
+    background-color: #FFFFFF; /* Background color for the section */
+    padding: 40px;
+    text-align: left;
+}
+
+.why-choose-us h2 {
+    font-size: 36px; /* Larger font size for section heading */
+    line-height: 43.57px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 30px; /* Space below the heading */
+}
+
+.reasons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns for reasons */
+    gap: 20px; /* Space between grid items */
+}
+
+.reason {
+    display: flex;
+    align-items: center; /* Vertical alignment of the items */
+    padding: 20px;
+    background-color: #F4F4F4; /* Light grey background for each reason */
+    border-radius: 10px; /* Rounded corners for aesthetic */
+}
+
+.reason .number {
+    font-size: 50px; /* Large font size for the number */
+    line-height: 60.51px;
+    font-weight: 700;
+    color: #DD6E3F; /* Orange color for the number */
+    margin-right: 20px; /* Space between number and text */
+}
+
+.reason h3 {
+    font-size: 26px;
+    line-height: 31.47px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.reason p {
+    font-size: 20px;
+    line-height: 24.2px;
+    font-weight: 400;
+    color: #666666; /* Dark grey color for the text */
+    margin-top: 5px; /* Space above the paragraph text */
+}
+
+
+
+
+
+
+
+
+/* Footer styling */
+.site-footer {
+    background-color: #FF5A00; /* Dark orange background */
+    color: #FFFFFF; /* White text color */
+    padding: 20px 50px; /* Padding for spacing */
+    text-align: center; /* Center all content */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footer-button {
+    background-color: #FFFFFF;
+    color: #FF5A00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    line-height: 18.15px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.footer-text {
+    font-size: 15px;
+    line-height: 18.15px;
+    font-weight: 400;
+}
+
+.app-links {
+    display: flex;
+    gap: 10px;
+}
+
+.app-link {
+    display: flex;
+    align-items: center;
+    background-color: #D9D9D9;
+    color: #000000;
+    padding: 8px 16px;
+    font-size: 15px;
+    line-height: 18.15px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.app-link img {
+    width: 24px; /* Suitable size for icons */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between the icon and text */
+}
+
+.app-link:hover {
+    background-color: #BBBBBB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive adjustments for smaller screens (phone)*/
 @media (max-width: 768px) {
     .job-search {
