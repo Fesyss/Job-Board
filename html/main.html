@@ -25,25 +25,34 @@
     <main>
         <section class="hero">
             <h1>Ready to take your career to new heights?</h1>
-            <p>Your Gateway to Great Job Opportunities!</p>
+            <p>Your Gateway to Great Job<br> Opportunities!</p>
             <button>Browse Jobs</button>
         </section>
 
         <section class="job-search">
             <div class="search-group">
                 <p>We have 130,145 current job offers</p>
-                <input type="text" placeholder="Position/company" name="jobs" id="jobs" >
-                <datalist id="jobs">
-                    <option value="Sales manager">
-                    <option value="Sales manager remoute">
-                    <option value="Sales manager Poznan">
-                    <option value="Sales manager Warsaw">
+                <input type="text" placeholder="Position/company" name="jobs" id="jobInput" list="jobsList">
+                <datalist id="jobsList">
+                    <option value="Sales manager"></option>
+                    <option value="Project manager"></option>
+                    <option value="Sales manager"></option>
+                    <option value="Sales manager"></option>
                 </datalist>
             </div>
-            <input type="text" placeholder="Location" name="location">
-            <button type="submit">Search</button>
-        </form>
+            <input type="text" placeholder="Location" name="location" id="locationInput" list="locationsList">
+            <datalist id="locationsList">
+                <option value="remote"></option>
+                <option value="Poznan"></option>
+                <option value="Warsaw"></option>
+                <option value="on place"></option>
+            </datalist>
+            <button type="button" onclick="openLink()">Search</button>
         </section>
+        
+        <script src="/js/main.js"></script>
+        
+        
         
 
         <section class="job-categories">
@@ -66,8 +75,6 @@
                 </a>
             </div>
         </section>
-        
-
         <section class="create-job-offer">
             <div class="offer-container">
                 <div class="offer-option">
@@ -82,8 +89,6 @@
                 </div>
             </div>
         </section>
-        
-
         <section class="why-choose-us">
             <h2>Why choose WORK.PL?</h2>
             <div class="reasons">
@@ -108,8 +113,7 @@
                     <p>Access valuable resources, tips, and advice to enhance your job search strategy and maximize your chances of success.</p>
                 </div>
             </div>
-        </section>
-        
+        </section> 
     </main>
 
     <footer class="site-footer">

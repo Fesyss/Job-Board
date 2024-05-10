@@ -132,7 +132,7 @@ nav ul li:hover a {
     font-weight: 500; 
     line-height: 29.05px;
     text-align: left;
-    padding: 25px 0px 25px 0px;
+    padding: 10px 0px 25px 0px;
 }
 /* Button styling in the hero section */
 .hero button {
@@ -168,6 +168,8 @@ nav ul li:hover a {
     justify-content: center;
     width: 100%;
     align-items: flex-end;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /* Search Group for vertical alignment of paragraph and input */
@@ -206,10 +208,11 @@ nav ul li:hover a {
     color: #FFFFFF;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 1px;
     width: 120px;
     height: 56px;
     margin-bottom: 5px;
+    margin-left: 10px;
 }
 
 .job-search button:hover {
@@ -269,13 +272,13 @@ nav ul li:hover a {
 
 /* Container for the job offer section */
 .create-job-offer {
-    background-color: #DD6E3F; /* Background color for the section */
-    padding: 20px;
+    background-color:#FFFFFF; /* Background color for the section */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px auto;
+    margin: 80px auto;
     flex-direction: column;
+    padding: 50px 20px 50px 20px;
 }
 
 /* Styling for each option container */
@@ -283,7 +286,7 @@ nav ul li:hover a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FFFFFF; /* Background color for the inner containers */
+    background-color: #D9D9D9; /* Background color for the inner containers */
     width: 822px; /* Width of the container */
     height: auto; /* Adjust height as needed */
     padding: 20px;
@@ -343,6 +346,8 @@ nav ul li:hover a {
     background-color: #FFFFFF; /* Background color for the section */
     padding: 40px;
     text-align: left;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .why-choose-us h2 {
