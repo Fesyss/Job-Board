@@ -9,7 +9,13 @@
             window.open('/html/salesManager.html', '_blank');
         }
         if (job === "Sales manager" && location === "remote") {
-            window.open('/html/salesManager2.html', '_blank');
+            window.open('/html/salesManagerRemote.html', '_blank');
+        }
+        if (job === "Project manager" && location === "") {
+            window.open('/html/projectManager.html', '_blank');
+        }
+        if (job === "Project manager" && location === "remote") {
+            window.open('/html/projectManagerRemote.html', '_blank');
         }
         
     }

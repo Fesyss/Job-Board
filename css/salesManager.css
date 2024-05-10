@@ -114,6 +114,12 @@ main {
     margin-right: 16px;
     border: none;
 }
+.card_btn:hover{
+    background-color: #D9D9D9;
+    color: #DD6E3FCC;
+    border: 1px solid #000000;
+    transition: 0.5s;
+}
 
 .card_btn:last-child {
     margin-right: 0;

@@ -2,7 +2,7 @@
 @import url('/css/reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 @import 'main.css';
-
+@import url("./salesManagerPoznan.css");
 .vac_title {
     font-size: 35px;
     font-weight: 700;
