@@ -1,0 +1,130 @@
+/* Importing necessary fonts and reset CSS */
+@import url('/css/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import 'main.css';
+
+.section-form-apply{
+    width: 1367px;
+    border-radius: 20px;
+    height: 1595px;
+    background-color: #D9D9D9;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+main section h1 {
+    color: #DD6E3F;
+    font-size: 35px;
+    font-weight: 700;    
+    line-height: 42.36px;
+    text-align: center;
+    font-family: Inter;
+    margin-top: 90px;
+}
+
+h3{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.33px;
+    text-align: left;
+    color: #DD6E3F;
+    margin-bottom: 25px;
+}
+
+.section-form-apply{
+    padding: 70px 0px 90px 60px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+p{
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24.2px;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.container-benefits{
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%;  
+    align-items: flex-start;
+}
+
+.container-benefits ul {
+    padding-bottom: 40px;
+    list-style-type: none; /* Removes default bullets */
+    padding-left: 0; /* Removes padding */
+    margin-top: 5px;
+}
+
+.list li {
+    position: relative;
+    padding-left: 20px; /* Space for custom bullet */
+    margin-bottom: 5px; /* Space between list items */
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+    font-size: 20px;    
+    color: #000;
+}
+
+.container-benefits ul li::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute;
+    left: 0; /* Align with the start of the text */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px; /* Size of the bullet */
+    height: 8px;
+    background-color: black; /* Bullet color */
+    border-radius: 50%; /* Makes it round */
+}
+
+/* main section div div div div p {
+    margin-top: 50px;
+} */
+
+.container-needs{
+    display: flex;
+    flex-direction: column;
+    
+}
+.container-benefitsAndNeeds{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.container-buttonApply{
+    height: 55px;
+    width: 185px; 
+    border-radius: 10px;
+    border: 1px solid #000000;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 26.63px;
+    font-size: 22px;
+    color: #00000099;
+}
+.container-buttonApply:hover{
+    color:#D9D9D9;
+    background-color: #DD6E3F;
+}
+.container-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-whatYouWillGetFromUs{
+    margin-top: 80px;
+}
+.container-whatYouWillGetFromUs div h3 {
+  margin-top: 50px;
+}

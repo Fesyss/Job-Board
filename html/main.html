@@ -8,16 +8,19 @@
 </head>
 <body>
     <header>
-        <div class="header-content">
-            <div class="logo"> <a href="#"></a>WORK.PL</div>
-            <nav>
-                <ul>
-                    <li><a href="#">Post a job offer</a></li>
-                    <li><a href="#">Upload a CV</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>            
-        </div>
+        <title>Main Page</title>
+         <div class="logo"> 
+            <a href="./main.html">WORK.PL</a>
+        </div>  
+                <nav>
+                    <ul>
+                        <li><a href="#">Post a job offer</a></li>
+                        <li><a href="#">Upload a CV</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>            
+            </div>
+        </header>
     </header>
     <main>
         <section class="hero">
@@ -29,7 +32,13 @@
         <section class="job-search">
             <div class="search-group">
                 <p>We have 130,145 current job offers</p>
-                <input type="text" placeholder="Position/company" name="job">
+                <input type="text" placeholder="Position/company" name="jobs" id="jobs" >
+                <datalist id="jobs">
+                    <option value="Sales manager">
+                    <option value="Sales manager remoute">
+                    <option value="Sales manager Poznan">
+                    <option value="Sales manager Warsaw">
+                </datalist>
             </div>
             <input type="text" placeholder="Location" name="location">
             <button type="submit">Search</button>
@@ -39,7 +48,7 @@
 
         <section class="job-categories">
             <div class="category-item">
-                <a href="#">
+                <a href="./salesManagerPoznan.html">
                     <img src="/img/free-icon-gps-856295 1.png" alt="Job offers by location">
                     <span>Job offers by location</span>
                 </a>
