@@ -18,7 +18,6 @@ WORK.PL is a web-based job portal that enables users to browse and apply for var
 
 The project is structured into several HTML pages linked to individual CSS files for styling and JavaScript for interactive functionality:
 
-- `index.html`: Page that is necessary for running GitHub Pages website, redirects to `main.html`
 - `main.html`: The main landing page that includes job search functionality.
 - `salesManager.html`, `salesManagerPoznan.html`, `salesManagerRemote.html`: Specific pages tailored for Sales Manager positions with custom filters and location-specific content.
 - `projectManager.html`: A similar setup for Project Manager positions.
