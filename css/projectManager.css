@@ -1,0 +1,9 @@
+/* Importing necessary fonts and reset CSS */
+@import url('/css/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import 'main.css';
+@import url('/css/salesManager.css');
+
+.section-projectManager{
+    margin: 100px 10px 100px 10px;
+}
