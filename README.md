@@ -1,5 +1,3 @@
-# Job-Board
-
 # WORK.PL Job Portal
 
 ![alt text](doc/hero.png)
