@@ -486,10 +486,27 @@ nav ul li:hover a {
 @media (max-width: 768px) {
     .job-search {
         flex-direction: column;
+        display: flex;
+        gap: 28px;
+        align-items: center;
+    }
+    .job-search p {
+        text-align: center;
+        padding-bottom: 28px;
     }
 
+    .create-job-offer button {
+        margin-top: 0px;
+        margin: 10px 0px;   
+    }
     .job-search form, .search-group {
         width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .job-search button {
+        width: 75%;
+        margin-left: 0px;
     }
 
     .search-group {

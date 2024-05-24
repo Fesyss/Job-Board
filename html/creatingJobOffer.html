@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="/css/creatingJobOffer.css">
+</head> 
+<body>
+    <header>
+        <title>Main Page</title>
+         <div class="logo"> 
+            <a href="/html/main.html">WORK.PL</a>
+        </div>  
+                <nav>
+                    <ul>
+                        <li><a href="#">Post a job offer</a></li>
+                        <li><a href="#">Upload a CV</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>            
+            </div>
+    </header>
+    <main>
+
+</main>
+
+<h3 class="heroTitle">Create your own job offer for other people</h3>
+<section class="creatingFormSection">
+
+    <div class="main_section_wraqpper">
+
+        <h3 class="section_title">Write the information about company</h3>
+        
+        <div class="numberOfEmployees_wrapper">
+            <h3>The number of employees</h3>
+            <input type="number" name="numberOfEmployees_input" class="input_text" id="">
+        </div>
+        <div class="website_wrapper">
+            <h3>Website of your company</h3>
+            <input type="text" name="websiteOfYourCompany" id="" class="input_text">
+        </div>
+
+        <div class="company_wrapper">
+            <h3>Company Description</h3>
+            <p>What the company does, its mission and vision, prospects for professional and career growth, your values, target audience, history and background, future plans, achievements</p>
+            <div class="company_input_wrapper">
+                <input type="text" name="company description" id="" class="company_input">
+            </div>
+        </div>
+
+        <div class="jobTitle_wrapper">
+            <h3>Job title</h3>
+            <input type="text" name="Input for job title" placeholder="Example, sales manager" id="" class="input_text">
+        </div>
+        
+        <div class="container">
+            <h3>Job posting's category</h3>
+            <div class="categories">
+                <ul>
+                    <li><input type="checkbox" id="accounting" name="category"><label for="accounting">Accounting & auditing</label></li>
+                    <li><input type="checkbox" id="administration" name="category"><label for="administration">Administration & middle management</label></li>
+                    <li><input type="checkbox" id="agriculture" name="category"><label for="agriculture">Agriculture & agribusiness</label></li>
+                    <li><input type="checkbox" id="beauty" name="category"><label for="beauty">Beauty, fitness & sports</label></li>
+                    <li><input type="checkbox" id="construction" name="category"><label for="construction">Construction & architecture</label></li>
+                    <li><input type="checkbox" id="culture" name="category"><label for="culture">Culture, music & entertainment</label></li>
+                    <li><input type="checkbox" id="design" name="category"><label for="design">Design & creativity</label></li>
+                    <li><input type="checkbox" id="education" name="category"><label for="education">Education & science</label></li>
+                    <li><input type="checkbox" id="finance" name="category"><label for="finance">Finance & banking</label></li>
+                    <li><input type="checkbox" id="hotels" name="category"><label for="hotels">Hotels, restaurants & tourism</label></li>
+                    <li><input type="checkbox" id="hr" name="category"><label for="hr">HR & personnel management</label></li>
+                    <li><input type="checkbox" id="insurance" name="category"><label for="insurance">Insurance</label></li>
+                    <li><input type="checkbox" id="it" name="category"><label for="it">IT, computers & Internet</label></li>
+                    <li><input type="checkbox" id="journalism" name="category"><label for="journalism">Journalism, publishing & printing</label></li>
+                    <li><input type="checkbox" id="legal" name="category"><label for="legal">Legal</label></li>
+                </ul>
+                <ul>
+                    <li><input type="checkbox" id="logistics" name="category"><label for="logistics">Logistics, warehouse & international commerce</label></li>
+                    <li><input type="checkbox" id="marketing" name="category"><label for="marketing">Marketing, advertising & PR</label></li>
+                    <li><input type="checkbox" id="medicine" name="category"><label for="medicine">Medicine & pharmaceuticals</label></li>
+                    <li><input type="checkbox" id="real_estate" name="category"><label for="real_estate">Real estate</label></li>
+                    <li><input type="checkbox" id="retail" name="category"><label for="retail">Retail</label></li>
+                    <li><input type="checkbox" id="sales" name="category"><label for="sales">Sales & procurement</label></li>
+                    <li><input type="checkbox" id="secretarial" name="category"><label for="secretarial">Secretarial, clerical & administrative assistants</label></li>
+                    <li><input type="checkbox" id="security" name="category"><label for="security">Security & guarding</label></li>
+                    <li><input type="checkbox" id="service" name="category"><label for="service">Service sector</label></li>
+                    <li><input type="checkbox" id="skilled_trades" name="category"><label for="skilled_trades">Skilled trades & manufacturing</label></li>
+                    <li><input type="checkbox" id="telecommunications" name="category"><label for="telecommunications">Telecommunications</label></li>
+                    <li><input type="checkbox" id="transportation" name="category"><label for="transportation">Transportation & auto industry</label></li>
+                    <li><input type="checkbox" id="upper_management" name="category"><label for="upper_management">Upper & senior management</label></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="work_condition_wrapper">
+            <h3>Work condition</h3>
+            <div class="work-condition">
+                <div class="option">
+                    <input type="radio" id="city_address" name="work_condition">
+                    <label for="city_address">City and address</label>
+                    <input type="text" id="city_input" placeholder="City" class="input_text">
+                </div>
+                <div class="option">
+                    <input type="radio" id="remote" name="work_condition">
+                    <label for="remote">Remote</label>
+                </div>
+            </div>
+        </div>
+        <div class="employment-container">
+            <h3 >Employment type</h3>
+            <div class="employment-options">
+                <div class="employment-option">
+                    <input type="radio" id="employment_full_time" name="employment_type" class="employment-radio">
+                    <label for="employment_full_time" class="employment-label">full-time</label>
+                </div>
+                <div class="employment-option">
+                    <input type="radio" id="employment_part_time" name="employment_type" class="employment-radio">
+                    <label for="employment_part_time" class="employment-label">part-time</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="salary-container">
+            <h3>Salary</h3>
+            <div class="salary-options">
+                <div class="salary-option">
+                    <input type="radio" id="salary_range" name="salary_type" class="salary-radio">
+                    <label for="salary_range" class="salary-label">Range</label>
+                    <input type="text" id="salary_from" class="range_input" placeholder="From">
+                    <input type="text" id="salary_to" class="range_input" placeholder="to">
+                    <span class="salary-unit">$ per month</span>
+                </div>
+                <div class="salary-option">
+                    <input type="radio" id="single_value" name="salary_type" class="salary-radio">
+                    <label for="single_value" class="salary-label">Single value</label>
+                </div>
+                <div class="salary-option">
+                    <input type="radio" id="no_specify" name="salary_type" class="salary-radio">
+                    <label for="no_specify" class="salary-label">Don’t specify (not recommended)</label>
+                </div>
+                <div class="comments_wrapper">
+                    <label for="comments" id="comments" class="commentsSalary">Comments regarding the salary</label>
+                    <input type="text" name="coments-input" id="comment-input" class="input_text">
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3 class="title-for-suitable-job">This job is suitable for:</h3>
+            <div class="suitable-wrapper">
+                <div>
+                <input type="checkbox" name="job-suitable-for" class="input-suitable" id="job-suitable-for">
+                <label for="suitable">A student</label>
+                </div>
+                <div>
+              <input type="checkbox" name="job-suitable-for" class="input-suitable" id="job-suitable-for">
+               <label for="suitable">A person with disabilities</label>
+              </div>
+              <div>
+                  <input type="checkbox" name="job-suitable-for" class="input-suitable" id="job-suitable-for">
+                  <label for="suitable">A retired person</label>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h3 class="title-knowledge">Knowledge and skills</h3>
+            <p>Select the skills that an employee should have for the position. This will help increase the number of responses, as job seekers will immediately see what you expect from them</p>
+            <input type="text" name="skillName" id="skillName" class="input_text skill-input" placeholder="Enter a skill name">
+        </div>
+
+        <div>
+            <h3>Job Description</h3>
+            <p>To find a suitable candidate, provide more details about the job. The more useful information in the job  description, the better job seekers will understand what awaits them at your company</p>
+            <input type="text" placeholder="Requirements:   Work conditions: Responsibilities:">
+        </div>
+        
+        
+        
+    </div>
+    
+</section>
+<footer class="site-footer">
+<div class="footer-content">
+    <button class="footer-button">Post a Job</button>
+    <p class="footer-text">Support: work.pl@gmail.com | +48 924 786 324</p>
+    <div class="app-links">
+        <a href="#" class="app-link google-play">
+            <img src="/img/free-icon-google-play-888857 1.png" alt="Download from Google Play">
+            Download from GooglePlay
+        </a>
+        <a href="#" class="app-link app-store">
+            <img src="/img/free-icon-apple-logo-747 1.png" alt="Download from App Store">
+            Download from AppStore
+        </a>
+    </div>
+</div>
+</footer>
+</body>
+</html>
