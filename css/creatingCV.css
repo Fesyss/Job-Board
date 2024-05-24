@@ -1,0 +1,39 @@
+@import url('/css/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import 'main.css';
+@import url("./salesManagerPoznan.css");
+
+.title_creatingCV-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-creatingCV{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    color: #DD6E3F;    
+    text-align: center;
+}
+.sub-title-creatingCV{
+    font-family: Inter;
+    color: #000000;
+    font-size: 30px;
+    line-height: 36.31px;
+    text-align: center;
+    font-weight: 400;
+}
+.main-wrapper-creatingCV{
+      
+        width: 90%;
+        height: 100%;
+        background-color: #DD6E3F;
+        padding: 80px;
+        margin: 30px 60px 30px 60px;
+        border-radius: 20px;
+}
+/* .introduce_title{
+
+} */
