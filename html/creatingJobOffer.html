@@ -170,10 +170,32 @@
         <div>
             <h3>Job Description</h3>
             <p>To find a suitable candidate, provide more details about the job. The more useful information in the job  description, the better job seekers will understand what awaits them at your company</p>
-            <input type="text" placeholder="Requirements:   Work conditions: Responsibilities:">
+            <input class="input_text description_input" type="text" placeholder="Requirements: &#10;  Work conditions: &#10;Responsibilities:">
         </div>
-        
-        
+        <div class="contact-container">
+            <h3 class="Your_contacts">Your contact information</h3>
+            <div class="contact-info">
+                <input type="text" placeholder="Your name and surname" class="contact-input input_text">
+                <input type="text" placeholder="Phone number" class="contact-input input_text">
+                <input type="email" placeholder="Email address" class="contact-input input_text">
+            </div>
+        </div>
+        <div class="ways-to-apply-container">
+            <h3 class="title-apply">Ways to apply</h3>
+            <div class="apply-options">
+                <div class="apply-option">
+                    <input type="radio" id="resume_required" name="apply_method" class="apply-radio">
+                    <label for="resume_required" class="apply-label">Resume required</label>
+                </div>
+                <div class="apply-option">
+                    <input type="radio" id="resume_not_required" name="apply_method" class="apply-radio">
+                    <label for="resume_not_required" class="apply-label">Resume is not required (only first name, last name and contacts)</label>
+                </div>
+            </div>
+            <div class="button-wrapper">
+                <button type="submit" class="submit-button">Submit</button>
+            </div>
+        </div>
         
     </div>
     

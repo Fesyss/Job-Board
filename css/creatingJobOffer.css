@@ -23,9 +23,9 @@
         justify-content: center;
         align-items: center;
 }
-/* .main_section_wraqpper{
-
-} */
+.main_section_wraqpper{
+width: auto;
+}
 .section_title{
     font-family: Inter;
     font-size: 35px;
@@ -117,13 +117,6 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: column;
 }
-/* input[type="text"] {
-    margin-left: 30px;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 200px;
-} */
 .work-condition {
     display: flex;
     flex-direction: column;
@@ -181,4 +174,51 @@ input[type="checkbox"] {
 }
 .skill-input{
     font-size: larger;
+}
+.Your_contacts{
+    text-align: left;
+}
+.apply-label{
+    font-size: x-large;
+}
+.submit-button{
+    width: 185px;
+    border-radius: 10px;
+    height: 55px;
+    font-size: larger;
+    align-items: center;
+    margin: auto 20px;
+}
+.title-apply{
+    text-align: left;
+}
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .creatingFormSection {
+        width: 100%;
+        padding: 80px;
+        border-radius: 20px;
+        background-color: #D9D9D9;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .company_input {
+        width: 300px;
+        color: #FFFFFFE5;
+        height: 299px;
+        border: 1px solid #000000;
+        border-radius: 25px;
+        margin-top: 40px;
+    }
+    .submit-button{
+        margin-top: 40px;
+    }
+
+    }
+@media (max-width: 1024px) {
 }
