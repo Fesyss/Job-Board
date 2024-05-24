@@ -1,7 +1,7 @@
 /* Importing necessary fonts and reset CSS */
 @import url('/css/reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-@import 'main.css';
+@import '/css/main.css';
 
 main {
     margin-top: 75px;
@@ -113,14 +113,30 @@ main {
     padding: 5px 35px;
     margin-right: 16px;
     border: none;
+    border: 1px solid #D9D9D9;
 }
 .card_btn:hover{
     background-color: #D9D9D9;
     color: #DD6E3FCC;
     border: 1px solid #000000;
     transition: 0.5s;
+    
 }
 
 .card_btn:last-child {
     margin-right: 0;
+}
+@media (max-width: 768px) {
+    .vac_wrapper_text{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 35px;
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 1024px) {
 }

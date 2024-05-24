@@ -39,11 +39,36 @@
 .sub_list{
     margin-bottom: 35px;
 }
-.alpBtnDecoration{
-    text-decoration: none;
-    font-family: Inter;
+
+.alpBtnDecorationApply {
+    border-radius: 10px;
+    color: #00000099;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
-    line-height: 26.63px;
-    text-align: left;
-    font-size: 22px;
+    font-size: 20px;
+    padding: 20px 60px;
+    margin: 20px auto;
+}
+.alpBtnDecorationApply:hover{
+        color:#D9D9D9;
+        background-color: #DD6E3F;
+}
+@media (max-width: 768px) {
+    .vac_wrapper_text{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 35px;
+        flex-direction: column;
+    }
+}
+@media (max-width: 1024px) {
+    .reasons{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .reason{
+        flex-direction: column;
+    }
 }
